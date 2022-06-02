@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Typing Test</title>
+</head>
+
+<body>
+    <div class="penjelasan">
+        <div class="container">
+            <h3 class="title-app">Tes Mengetik</h3>
+            <p>Sebuah Program dengan nama Tes mengetik yang dibuat menggunakan html css dan javascript, untuk mengetahui
+                seberapa cepat kita saat sedang mengetik</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="start">
+            <p>Waktu: <span id="timer">0s</span></p>
+            <p>Gagal: <span id="mistakes">0</span></p>
+        </div>
+        <div id="quote" onmousedown="return false" onselectstart="return false">
+
+        </div>
+        <textarea id="quote-input" rows="3" placeholder="Tekan Start Test untuk memulai test"></textarea>
+        <div class="button-area">
+            <button id="start-test" onclick="startTest()">Start Test</button>
+            <button id="stop-test" onclick="displayResult()">Stop Test</button>
+        </div>
+
+        <div class="result">
+            <h3 class="title">Result</h3>
+            <div class="wrapper">
+                <p>Akurasi : <span id="akurasi"></span></p>
+                <p>Kecepatan : <span id="wpm"></span></p>
+                <button class="again-test"><a href="https://huda-addelson.github.io/tes-mengetik-app/">Ulangi
+                        Test</a></button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bottom">Copyright &copy; 2022 Huda-Addelson</div>
+    <!-- Javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
