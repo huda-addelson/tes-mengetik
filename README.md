@@ -10,4 +10,4 @@ Sebuah program sederhana dengan nama tes mengetik, untuk mengetahui seberapa cep
   * Visual Studio Code
 
 # DEMO
-  <a href="http://Facebook.com">Klik link ini untuk melihat Demo
+  <a href="https://huda-addelson.github.io/tes-mengetik/">Klik link ini untuk melihat Demo
