@@ -1,6 +1,6 @@
 # Tes Mengetik App
 Sebuah program sederhana dengan nama tes mengetik, untuk mengetahui seberapa cepat kita saat sedang mengetik.
-# dibuat dengan berikut
+# dibuat dengan
   * HTML
   * CSS
   * JavaScript
